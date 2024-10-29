@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power BI Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling for full-page layout */
+    body {
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    /* Full-screen iframe container */
+    .iframe-container {
+      width: 100%;
+      height: 100vh;
+      max-width: 100vw;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="iframe-container">
+    <iframe title="Suyash_Final" width="1140" height="541.25"
+      src="https://app.powerbi.com/reportEmbed?reportId=53f2a25f-7648-4b37-ae8f-ae00b5f641be&autoAuth=true&ctid=8554ef09-971b-44b3-93d3-8542760dfe68"
+      frameborder="0" allowFullScreen="true"></iframe>
+  </div>
+</body>
+
+</html>
